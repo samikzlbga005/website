@@ -150,10 +150,10 @@
                 $nfile = "new.jpg";
                 $ofile = "old.jpg";
                 $folder = $_COOKIE["getCookie"]."/";
-                $database = "localhost";
-                $username = "root";
-                $password = "";
-                $databaseName = "test";
+                $database = "eu-cdbr-west-03.cleardb.net";
+                $username = "b6541dda9d06e1";
+                $password = "b3a2e76c";
+                $databaseName = "heroku_a33e0eae3c98e2d";
                 $connect = new mysqli($database,$username,$password,$databaseName,3306);
                 if($connect->connect_error){
                     die("not connected:".$connect->connect_error);
